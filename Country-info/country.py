@@ -23,7 +23,7 @@ def get_status(country_name):
             country=result
             # print(country)
             # print(json.dumps(country, indent=4))
-            print(type(country))
+            # print(type(country))
             try:
                 comm=country['data'].get('objects', {})
 
